@@ -28,6 +28,13 @@
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     self.view.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
     
+    NSLog(@"%@ = %@", kJIJoeGorillaImageName, [UIImage imageNamed:kJIJoeGorillaImageName]);
+    UIImageView *image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:kJIJoeGorillaImageName]];
+    image.frame = self.view.bounds;
+    image.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    image.contentMode = UIViewContentModeScaleAspectFill;
+    [self.view addSubview:image];
+    
     UIToolbar *tool = [[UIToolbar alloc] initWithFrame:CGRectMake(0.0, self.view.bounds.size.height - 44.0, self.view.bounds.size.width, 44.0)];
     tool.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleWidth;
     NSArray *tools = [NSArray arrayWithObjects:

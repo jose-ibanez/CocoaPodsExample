@@ -19,6 +19,8 @@
 		E29BB5AC15ACFFD300AC51BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E29BB5AA15ACFFD300AC51BE /* InfoPlist.strings */; };
 		E29BB5AF15ACFFD300AC51BE /* CocoaPodsExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E29BB5AE15ACFFD300AC51BE /* CocoaPodsExampleTests.m */; };
 		E29BB5BB15AD003A00AC51BE /* JIMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29BB5BA15AD003A00AC51BE /* JIMainViewController.m */; };
+		E29BB5D615AD09D100AC51BE /* Joe Gorilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E29BB5D515AD09D100AC51BE /* Joe Gorilla.jpg */; };
+		E29BB5D915AD09F000AC51BE /* JICocoaPodsExampleConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E29BB5D815AD09F000AC51BE /* JICocoaPodsExampleConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		E29BB5AE15ACFFD300AC51BE /* CocoaPodsExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodsExampleTests.m; sourceTree = "<group>"; };
 		E29BB5B915AD003A00AC51BE /* JIMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIMainViewController.h; sourceTree = "<group>"; };
 		E29BB5BA15AD003A00AC51BE /* JIMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIMainViewController.m; sourceTree = "<group>"; };
+		E29BB5D515AD09D100AC51BE /* Joe Gorilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Joe Gorilla.jpg"; sourceTree = "<group>"; };
+		E29BB5D715AD09F000AC51BE /* JICocoaPodsExampleConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JICocoaPodsExampleConstants.h; sourceTree = "<group>"; };
+		E29BB5D815AD09F000AC51BE /* JICocoaPodsExampleConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JICocoaPodsExampleConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 			children = (
 				E29BB58F15ACFFD200AC51BE /* CocoaPodsExample */,
 				E29BB5A715ACFFD300AC51BE /* CocoaPodsExampleTests */,
+				E29BB5D315AD08AC00AC51BE /* Resources */,
 				E29BB58815ACFFD200AC51BE /* Frameworks */,
 				E29BB58615ACFFD200AC51BE /* Products */,
 			);
@@ -124,6 +130,8 @@
 				E29BB59215ACFFD200AC51BE /* InfoPlist.strings */,
 				E29BB59515ACFFD300AC51BE /* main.m */,
 				E29BB59715ACFFD300AC51BE /* CocoaPodsExample-Prefix.pch */,
+				E29BB5D715AD09F000AC51BE /* JICocoaPodsExampleConstants.h */,
+				E29BB5D815AD09F000AC51BE /* JICocoaPodsExampleConstants.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,6 +162,14 @@
 				E29BB5BA15AD003A00AC51BE /* JIMainViewController.m */,
 			);
 			path = iPhone;
+			sourceTree = "<group>";
+		};
+		E29BB5D315AD08AC00AC51BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E29BB5D515AD09D100AC51BE /* Joe Gorilla.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E29BB59415ACFFD300AC51BE /* InfoPlist.strings in Resources */,
+				E29BB5D615AD09D100AC51BE /* Joe Gorilla.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +282,7 @@
 				E29BB59615ACFFD300AC51BE /* main.m in Sources */,
 				E29BB59A15ACFFD300AC51BE /* JIAppDelegate.m in Sources */,
 				E29BB5BB15AD003A00AC51BE /* JIMainViewController.m in Sources */,
+				E29BB5D915AD09F000AC51BE /* JICocoaPodsExampleConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +444,7 @@
 				E29BB5B415ACFFD300AC51BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E29BB5B515ACFFD300AC51BE /* Build configuration list for PBXNativeTarget "CocoaPodsExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +453,7 @@
 				E29BB5B715ACFFD300AC51BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
