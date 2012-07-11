@@ -7,6 +7,7 @@
 //
 
 #import "JIAppDelegate.h"
+#import "JIMainViewController.h"
 
 @implementation JIAppDelegate
 
@@ -17,6 +18,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    UIViewController *vc = [[JIMainViewController alloc] initWithNibName:nil bundle:nil];
+    self.window.rootViewController = vc;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
