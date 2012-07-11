@@ -17,7 +17,6 @@
 		E29BB5A315ACFFD300AC51BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29BB58915ACFFD200AC51BE /* UIKit.framework */; };
 		E29BB5A415ACFFD300AC51BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29BB58B15ACFFD200AC51BE /* Foundation.framework */; };
 		E29BB5AC15ACFFD300AC51BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E29BB5AA15ACFFD300AC51BE /* InfoPlist.strings */; };
-		E29BB5AF15ACFFD300AC51BE /* CocoaPodsExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E29BB5AE15ACFFD300AC51BE /* CocoaPodsExampleTests.m */; };
 		E29BB5BB15AD003A00AC51BE /* JIMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29BB5BA15AD003A00AC51BE /* JIMainViewController.m */; };
 		E29BB5D615AD09D100AC51BE /* Joe Gorilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E29BB5D515AD09D100AC51BE /* Joe Gorilla.jpg */; };
 		E29BB5D915AD09F000AC51BE /* JICocoaPodsExampleConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E29BB5D815AD09F000AC51BE /* JICocoaPodsExampleConstants.m */; };
@@ -48,8 +47,6 @@
 		E29BB5A115ACFFD300AC51BE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		E29BB5A915ACFFD300AC51BE /* CocoaPodsExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaPodsExampleTests-Info.plist"; sourceTree = "<group>"; };
 		E29BB5AB15ACFFD300AC51BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E29BB5AD15ACFFD300AC51BE /* CocoaPodsExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaPodsExampleTests.h; sourceTree = "<group>"; };
-		E29BB5AE15ACFFD300AC51BE /* CocoaPodsExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodsExampleTests.m; sourceTree = "<group>"; };
 		E29BB5B915AD003A00AC51BE /* JIMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIMainViewController.h; sourceTree = "<group>"; };
 		E29BB5BA15AD003A00AC51BE /* JIMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIMainViewController.m; sourceTree = "<group>"; };
 		E29BB5D515AD09D100AC51BE /* Joe Gorilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Joe Gorilla.jpg"; sourceTree = "<group>"; };
@@ -139,8 +136,6 @@
 		E29BB5A715ACFFD300AC51BE /* CocoaPodsExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				E29BB5AD15ACFFD300AC51BE /* CocoaPodsExampleTests.h */,
-				E29BB5AE15ACFFD300AC51BE /* CocoaPodsExampleTests.m */,
 				E29BB5A815ACFFD300AC51BE /* Supporting Files */,
 			);
 			path = CocoaPodsExampleTests;
@@ -290,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E29BB5AF15ACFFD300AC51BE /* CocoaPodsExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
