@@ -62,7 +62,7 @@
 - (void)share:(id)sender {
     NSLog(@"share pressed!");
     
-//    SHKItem *item = [SHKItem URL:[NSURL URLWithString:@"http://github.com/jose-ibanez"] title:@"Check out my totally awesome sweet github page!"];
+//    SHKItem *item = [SHKItem URL:[NSURL URLWithString:@"https://github.com/jose-ibanez/CocoaPodsExample"] title:@"I just installed ShareKit in 10 minutes using CocoaPods!"];
 //    [SHK setRootViewController:self];
 //    SHKActionSheet *shareSheet = [SHKActionSheet actionSheetForItem:item];
 //    [shareSheet showInView:self.view];
