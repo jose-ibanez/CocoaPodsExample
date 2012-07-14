@@ -12,6 +12,8 @@ CocoaPods installs as a ruby gem.  Installing the latest version is as simple as
 
 The `sudo` prefix may not be necessary, depending on your system.  This may take a while as it downloads the required Ruby packages to your machine.
 
+*NOTE: CocoaPods version 0.9.0 may require a newer version of Ruby than comes installed with Lion.  I'll update this guide when I have more information.*
+
 ###Build and Run
 
 You should be able to open `CocoaPodsExample.xcodeproj` and build and run in the simulator or on a device immediately.  It's a basic application that doesn't really do anything besides display a picture.  We're going to modify it so people can share a link to the example project to Twitter of Facebook.
