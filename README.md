@@ -1,6 +1,6 @@
 #CocoaPodsExample
 
-An example project that demonstrates how to set up and use [CocoaPods](https://github.com/CocoaPods).  I created this project for a 10 minute demonstration at the July 2012 [PhillyCocoa](http://phillycocoa.org/) meetup.  This example project was made and tested with CocoaPods 0.8.0, and I can't guarantee it will continue to work for newer versions.
+An example project that demonstrates how to set up and use [CocoaPods](https://github.com/CocoaPods).  I created this project for a 10 minute demonstration at the July 2012 [PhillyCocoa](http://phillycocoa.org/) meetup.  This example project was tested with CocoaPods 0.9.1, and I can't guarantee it will continue to work for newer versions.
 
 ##Instructions
 
@@ -11,8 +11,6 @@ CocoaPods installs as a ruby gem.  Installing the latest version is as simple as
     [sudo] gem install cocoapods
 
 The `sudo` prefix may not be necessary, depending on your system.  This may take a while as it downloads the required Ruby packages to your machine.
-
-*NOTE: CocoaPods version 0.9.0 may require a newer version of Ruby than comes installed with Lion.  I'll update this guide when I have more information.*
 
 ###Build and Run
 
@@ -37,6 +35,8 @@ The `Podfile` is where you declare your project's exernal dependencies.  You can
 Close the project if you still have it open in Xcode.  In terminal, go to the folder that includes `CocoaPodsExample.xcodeproj` and `Podfile`, then type the following command:
 
     pod install
+
+*NOTE: CocoaPods version 0.9.1 requires a newer version of RubyGems than comes installed with Lion.  If you receive a message about updating RubyGems, follow the instructions and you should be able to continue normally.*
 
 You'll see CocoaPods go to work, downloading the dependencies you declared, and also downloading all of their dependencies.  The interesting part is at the end:
 
